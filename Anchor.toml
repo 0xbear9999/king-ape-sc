@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+king_kong_game = "Q1Y4tckggicbdc7pNWzzcAkfr8gBGfjQcqnyCNNmTnt"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ubuntu/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
